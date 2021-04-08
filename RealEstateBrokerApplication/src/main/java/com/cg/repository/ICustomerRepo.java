@@ -10,13 +10,13 @@ import com.cg.exception.CustomerNotFoundException;
 @Repository
 public interface ICustomerRepo extends JpaRepository<Customer, Integer> {
 	
-	public Customer saveCustomer(Customer customer);
-
-	public Customer updateCustomer(Customer customer);
-
-	public Customer deleteCustomer(Customer customer) throws CustomerNotFoundException;
-
-	public Customer fetchCustomer(int custid) throws CustomerNotFoundException;
-
-	public List<Customer> fetchAllCustomers();
+//	public Customer saveCustomer(Customer customer);
+//
+//	public Customer updateCustomer(Customer customer);
+//
+//	public Customer deleteCustomer(Customer customer) throws CustomerNotFoundException;
+//
+//	public Customer fetchCustomer(int custid) throws CustomerNotFoundException;
+//
+//	public List<Customer> fetchAllCustomers();
 }

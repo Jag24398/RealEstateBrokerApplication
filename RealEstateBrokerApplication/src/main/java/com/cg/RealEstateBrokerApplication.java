@@ -8,6 +8,7 @@ public class RealEstateBrokerApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(RealEstateBrokerApplication.class, args);
+		System.out.println("Welcome");
 	}
 
 }

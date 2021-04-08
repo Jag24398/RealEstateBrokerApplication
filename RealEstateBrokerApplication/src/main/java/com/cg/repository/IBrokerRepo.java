@@ -10,13 +10,13 @@ import com.cg.exception.BrokerNotFoundException;
 @Repository
 public interface IBrokerRepo extends JpaRepository<Broker, Integer> {
 	
-	public Broker saveBroker(Broker bro);
-	
-	public Broker updateBroker(Broker bro);
-	
-	public Broker deleteBroker(int broId) throws BrokerNotFoundException;
-	
-	public Broker fetchBroker(int broId) throws BrokerNotFoundException;
-	
-	public List<Broker> fetchAllBrokers();
+//	public Broker saveBroker(Broker bro);
+//	
+//	public Broker updateBroker(Broker bro);
+//	
+//	public Broker deleteBroker(int broId) throws BrokerNotFoundException;
+//	
+//	public Broker fetchBroker(int broId) throws BrokerNotFoundException;
+//	
+//	public List<Broker> fetchAllBrokers();
 }
